@@ -1,0 +1,29 @@
+.Form {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* float: center; */
+  /* background-color: rgb(9, 80, 143); */
+}
+.Flags {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.TextFieldForm {
+  width: "300px";
+  margin: "40px";
+  background-color: azure;
+}
+
+p {
+  color: #bf1650;
+}
+
+p::before {
+  display: inline;
+  content: "⚠ ";
+}
